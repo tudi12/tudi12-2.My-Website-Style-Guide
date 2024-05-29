@@ -1,2 +1,1 @@
-# tudi12-2.My-Website-Style-Guide
-My-Website-Style-Guide: Codecademy Off-Platform Project
+The project was done as part of a course on Codecademy.com, where for the first part of the project in the #colors section, I made small changes such as assigning a new color and text when the color container was clicked.
