@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Style Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Website Style Guide</h1>
+
+            <ul>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+                <li><a href="#text-styles">Text Styles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="colors">
+        <h1 class="title">Colors</h1>
+        <div class="flexbox">
+
+            <div class="colorBox" id="violet" onclick="change(event)">
+                <p class="flexbox-title">Violet</p>
+                <p class="flexbox-hex">#ee82ee</p>
+            </div>
+
+            <div class="colorBox" id="red" onclick="change(event)">
+                <p class="flexbox-title">Red</p>
+                <p class="flexbox-hex">#ff0000</p>
+            </div>
+
+            <div class="colorBox" id="orange" onclick="change(event)">
+                <p class="flexbox-title">Orange</p>
+                <p class="flexbox-hex">#ffa500</p>
+            </div>
+
+            <div class="colorBox" id="yellow" onclick="change(event)">
+                <p class="flexbox-title">Yellow</p>
+                <p class="flexbox-hex">#ffff00</p>
+            </div>
+
+            <div class="colorBox" id="green" onclick="change(event)">
+                <p class="flexbox-title">Green</p>
+                <p class="flexbox-hex">#008000</p>
+            </div>
+
+            <div class="colorBox" id="cyan" onclick="change(event)">
+                <p class="flexbox-title">Cyan</p>
+                <p class="flexbox-hex">#00ffff</p>
+            </div>
+
+            <div class="colorBox" id="blue" onclick="change(event)">
+                <p class="flexbox-title">Blue</p>
+                <p class="flexbox-hex">#0000ff</p>
+            </div>
+
+            <div class="colorBox" id="indigo" onclick="change(event)">
+                <p class="flexbox-title">Indigo</p>
+                <p class="flexbox-hex">#4b0082</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fonts">
+        <h2 class="title">Fonts</h2>
+        <div class="flexbox">
+            <div class="fontbox">
+                <div class="source-code-pro">
+                    <h3>Source Code Pro</h3>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+
+            <div class="fontbox">
+                <div class="nunito-sans">
+                    <h3>Nunito Sans</h3>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+            
+            <div class="fontbox">
+                <div class="poppins">
+                    <h3>Poppins</h3>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+
+            <div class="fontbox">
+                <div class="times-new-roman">
+                    <h3>Times New Roman</h3>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+
+            <div class="fontbox">
+                <div class="tahomba">
+                    <h3>Tahomba</h3>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+
+            <div class="fontbox">
+                <div class="playfair-display">
+                    <h3>Playfair Display</h3>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="text-styles">
+        <h2 class="title">Text Styles</h2>
+        <div class="flexbox">
+            <div class="text-panel">                
+                <h1>H1: Main page heading</h1>
+                <ul>
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Nunito Sans</li>
+                </ul>
+            </div>
+
+            <div class="text-panel">
+                <h2>H2: Subheading</h2>
+                <ul>
+                    <li>Font-weight: 500</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Poppins</li>
+                </ul>
+            </div>
+
+            <div class="text-panel">
+                <p>P: Paragraph text</p>
+                <ul>
+                    <li>Font-weight: 400 (regular)</li>
+                    <li>Font-size: 14px</li>
+                    <li>Font-family: Times-New-Roman</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
